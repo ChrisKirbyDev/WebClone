@@ -13,6 +13,7 @@ import { FormComponent } from './form/form.component';
 import { PopularEventComponent } from './popular-event/popular-event.component';
 import { LatestNewsComponent } from './latest-news/latest-news.component';
 import { FlatContactComponent } from './flat-contact/flat-contact.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { FlatContactComponent } from './flat-contact/flat-contact.component';
     PopularEventComponent,
     LatestNewsComponent,
     FlatContactComponent,
+    FooterComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
