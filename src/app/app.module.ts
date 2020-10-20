@@ -8,6 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { SliderComponent } from './slider/slider.component';
 import { IconBoxComponent } from './icon-box/icon-box.component';
 import { CourseCategoriesComponent } from './course-categories/course-categories.component';
+import { PopularCoursesComponent } from './popular-courses/popular-courses.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { CourseCategoriesComponent } from './course-categories/course-categories
     SliderComponent,
     IconBoxComponent,
     CourseCategoriesComponent,
+    PopularCoursesComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
