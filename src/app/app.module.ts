@@ -15,7 +15,6 @@ import { ShellModule } from './shell/shell.module';
 import { AboutModule } from './about/about.module';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-import { LandingPageComponent } from './components/landing-page/landing-page.component';
 
 @NgModule({
   imports: [
@@ -33,7 +32,7 @@ import { LandingPageComponent } from './components/landing-page/landing-page.com
     AuthModule,
     AppRoutingModule, // must be imported as the last module as it contains the fallback route
   ],
-  declarations: [AppComponent, LandingPageComponent],
+  declarations: [AppComponent],
   providers: [],
   bootstrap: [AppComponent],
 })
