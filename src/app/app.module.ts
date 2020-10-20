@@ -7,9 +7,17 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HeaderComponent } from './header/header.component';
 import { SliderComponent } from './slider/slider.component';
 import { IconBoxComponent } from './icon-box/icon-box.component';
+import { CourseCategoriesComponent } from './course-categories/course-categories.component';
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, HeaderComponent, SliderComponent, IconBoxComponent],
+  declarations: [
+    AppComponent,
+    NavbarComponent,
+    HeaderComponent,
+    SliderComponent,
+    IconBoxComponent,
+    CourseCategoriesComponent,
+  ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
