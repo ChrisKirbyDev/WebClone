@@ -6,9 +6,10 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HeaderComponent } from './header/header.component';
 import { SliderComponent } from './slider/slider.component';
+import { IconBoxComponent } from './icon-box/icon-box.component';
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, HeaderComponent, SliderComponent],
+  declarations: [AppComponent, NavbarComponent, HeaderComponent, SliderComponent, IconBoxComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
