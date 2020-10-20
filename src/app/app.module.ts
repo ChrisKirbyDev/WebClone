@@ -11,6 +11,7 @@ import { CourseCategoriesComponent } from './course-categories/course-categories
 import { PopularCoursesComponent } from './popular-courses/popular-courses.component';
 import { FormComponent } from './form/form.component';
 import { PopularEventComponent } from './popular-event/popular-event.component';
+import { LatestNewsComponent } from './latest-news/latest-news.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { PopularEventComponent } from './popular-event/popular-event.component';
     PopularCoursesComponent,
     FormComponent,
     PopularEventComponent,
+    LatestNewsComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
