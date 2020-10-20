@@ -9,6 +9,8 @@ import { SliderComponent } from './slider/slider.component';
 import { IconBoxComponent } from './icon-box/icon-box.component';
 import { CourseCategoriesComponent } from './course-categories/course-categories.component';
 import { PopularCoursesComponent } from './popular-courses/popular-courses.component';
+import { FormComponent } from './form/form.component';
+import { PopularEventComponent } from './popular-event/popular-event.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +21,8 @@ import { PopularCoursesComponent } from './popular-courses/popular-courses.compo
     IconBoxComponent,
     CourseCategoriesComponent,
     PopularCoursesComponent,
+    FormComponent,
+    PopularEventComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
