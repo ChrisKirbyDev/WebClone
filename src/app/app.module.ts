@@ -12,6 +12,7 @@ import { PopularCoursesComponent } from './popular-courses/popular-courses.compo
 import { FormComponent } from './form/form.component';
 import { PopularEventComponent } from './popular-event/popular-event.component';
 import { LatestNewsComponent } from './latest-news/latest-news.component';
+import { FlatContactComponent } from './flat-contact/flat-contact.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { LatestNewsComponent } from './latest-news/latest-news.component';
     FormComponent,
     PopularEventComponent,
     LatestNewsComponent,
+    FlatContactComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
