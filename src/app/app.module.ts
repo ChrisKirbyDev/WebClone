@@ -1,39 +1,36 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http';
-import { ServiceWorkerModule } from '@angular/service-worker';
-import { TranslateModule } from '@ngx-translate/core';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
-import { environment } from '@env/environment';
-import { CoreModule } from '@core';
-import { SharedModule } from '@shared';
-import { AuthModule } from '@app/auth';
-import { HomeModule } from './home/home.module';
-import { ShellModule } from './shell/shell.module';
-import { AboutModule } from './about/about.module';
-import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-import { LandingPageComponent } from './components/landing-page/landing-page.component';
+import { AppComponent } from './app.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { HeaderComponent } from './header/header.component';
+import { SliderComponent } from './slider/slider.component';
+import { IconBoxComponent } from './icon-box/icon-box.component';
+import { CourseCategoriesComponent } from './course-categories/course-categories.component';
+import { PopularCoursesComponent } from './popular-courses/popular-courses.component';
+import { FormComponent } from './form/form.component';
+import { PopularEventComponent } from './popular-event/popular-event.component';
+import { LatestNewsComponent } from './latest-news/latest-news.component';
+import { FlatContactComponent } from './flat-contact/flat-contact.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
-  imports: [
-    BrowserModule,
-    ServiceWorkerModule.register('./ngsw-worker.js', { enabled: environment.production }),
-    FormsModule,
-    HttpClientModule,
-    TranslateModule.forRoot(),
-    NgbModule,
-    CoreModule,
-    SharedModule,
-    ShellModule,
-    HomeModule,
-    AboutModule,
-    AuthModule,
-    AppRoutingModule, // must be imported as the last module as it contains the fallback route
+  declarations: [
+    AppComponent,
+    NavbarComponent,
+    HeaderComponent,
+    SliderComponent,
+    IconBoxComponent,
+    CourseCategoriesComponent,
+    PopularCoursesComponent,
+    FormComponent,
+    PopularEventComponent,
+    LatestNewsComponent,
+    FlatContactComponent,
+    FooterComponent,
   ],
-  declarations: [AppComponent, LandingPageComponent],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
 })
