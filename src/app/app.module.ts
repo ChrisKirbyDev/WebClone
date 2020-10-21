@@ -28,6 +28,8 @@ import { IndexTwoComponent } from './component/index-two/index-two.component';
 import { IndexThreeComponent } from './component/index-three/index-three.component';
 import { IndexFourComponent } from './component/index-four/index-four.component';
 import { IndexFiveComponent } from './component/index-five/index-five.component';
+import { HeaderComponent } from './container/header/header.component';
+import { FooterComponent } from './container/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -56,6 +58,8 @@ import { IndexFiveComponent } from './component/index-five/index-five.component'
     IndexThreeComponent,
     IndexFourComponent,
     IndexFiveComponent,
+    HeaderComponent,
+    FooterComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
