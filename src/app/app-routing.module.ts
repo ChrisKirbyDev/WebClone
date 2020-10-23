@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { IndexComponent } from './component/index/index.component';
-import { IndexTwoComponent } from './component/index-two/index-two.component';
-import { IndexThreeComponent } from './component/index-three/index-three.component';
-import { IndexFourComponent } from './component/index-four/index-four.component';
-import { IndexFiveComponent } from './component/index-five/index-five.component';
+import { IndexComponent } from './container/index/index/index.component';
+import { IndexTwoComponent } from './container/index/index-two/index-two.component';
+import { IndexThreeComponent } from './container/index/index-three/index-three.component';
+import { IndexFourComponent } from './container/index/index-four/index-four.component';
+import { IndexFiveComponent } from './container/index/index-five/index-five.component';
 import { AboutusComponent } from './component/aboutus/aboutus.component';
 
 const routes: Routes = [
